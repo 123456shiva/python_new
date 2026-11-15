@@ -1,0 +1,5 @@
+file=open("11.file handling/open.txt","a")
+txt=input("Enter the text you want to append: ")
+file.write("\n"+txt)
+file.close()
+print("data appended successfully")
