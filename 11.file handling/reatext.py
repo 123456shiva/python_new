@@ -1,0 +1,5 @@
+file=open("11.file handling/open.txt","r")
+data=file.read()
+print(data)
+print("The file is closed:",file.closed)
+file.close()
