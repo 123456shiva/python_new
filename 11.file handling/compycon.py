@@ -1,0 +1,7 @@
+file=open("11.file handling/open.txt","r")
+data=file.read()
+file.close()
+copy=open("11.file handling/copy.txt","w")
+copy.write(data)    
+copy.close()
+print("Data copied successfully from open.txt to copy.txt")
